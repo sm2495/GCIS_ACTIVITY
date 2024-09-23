@@ -236,6 +236,7 @@ def main():
     t.penup()
     t.goto(0,0)
     t.pendown()
+    print("Exit by clicking on the icon ")
     t.screen.exitonclick()
 
 main()
